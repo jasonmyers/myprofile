@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>About Me</title>
+</head>
+<body>
+	<table cellspacing="10" cellpadding="10">
+		<tbody>
+			<tr>
+				<td><a href="{{url_for('about')}}">About</a></td>
+				<td><a href="{{url_for('skills')}}">Skills</a></td>
+				<td><a href="{{url_for('contact')}}">Contact</a></td>
+			</tr>
+		</tbody>
+	</table>
+	{% block content %}{% endblock %}	
+</body>
+</html>
