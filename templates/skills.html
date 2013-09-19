@@ -1,10 +1,14 @@
 {% extends "base.html" %}
 {% block content %}
+<div class="col_2"></div> 
+<div class="col_6">
 	{% for skill in skills %}
-	<ul> {{skill}}
+	<ul class="alt"> {{skill}}
 		{% for item in skills[skill] %}
 		<li>{{ item }}</li>     
 		{% endfor %}
 	</ul>
 	{% endfor %}
+</div>	
+<div class="col_2"></div> 	
 {% endblock %}

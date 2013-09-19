@@ -1,9 +1,27 @@
 {% extends "base.html" %}
 {% block content %}
-<form action="">
-	Name : <input type="text"><br>
-	Email : <input type="text"><br>
-	Message : <textarea></textarea>
-</form>
-
+<div class="col_2"></div> 
+<div class="col_6">
+	<form action="">
+		<table cellspacing="0" cellpadding="0">
+			<tbody>
+				<tr>
+					<td><label for="name">Name : </label></td>
+					<td><input id="name" type="text"></td>
+				</tr>
+				<tr>
+					<td><label for="email">Email : </label></td>
+					<td><input id="email" type="text"></td>
+				</tr>
+				<tr>
+					<td><label for="message">Message : </label></td>
+					<td><textarea id="message"></textarea></td>
+				</tr>
+				<tr></tr>
+			</tbody>
+		</table>
+		<input type="submit">		
+	</form>
+</div>	
+<div class="col_2"></div> 
 {% endblock %}

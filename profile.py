@@ -13,7 +13,7 @@ def skills():
 	skills = {
 		'Platforms' : ['IBM Mainframe - z/OS/MVS', 'Windows', 'Mac OS', 'Linux'],
 		'Databases' : ['IMS', 'DB2', 'Teradata', 'MySql'],
-		'Others' : ['Python', 'HTML/CSS', 'SAS', 'REXX', 'COBOL']
+		'Languages' : ['Python', 'HTML/CSS', 'SAS', 'REXX', 'COBOL']
 	}
 	return render_template("skills.html",
 		title = "Skills",
